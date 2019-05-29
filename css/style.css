@@ -26,7 +26,7 @@ body{
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
 	border-radius:10px;
-	border:#666 solid 2px;
+	border:#656 solid 2px;
 }
 
 #audio-image{
@@ -45,12 +45,12 @@ body{
 }
 
 .cover{
-	width:95%;
+	width:100%;
 	z-index:1;
 }
 
 input#volume{
-	width:95px;
+	width:95%;
 	margin-left:2%;
 	-webkit-appearance:: none !important;
 	background:#20F;
@@ -120,7 +120,7 @@ button#stop{
 	display:inline-block;
 }
 
-3duration{
+#duration{
 	position:absolute;
 	top:0;
 	right:10px;
